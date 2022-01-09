@@ -1,0 +1,27 @@
+{
+  "name": "vite-plugin-files-copy",
+  "version": "1.0.0",
+  "description": "vite plugin copy",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tcly861204/vite-plugin-files-copy.git"
+  },
+  "keywords": [
+    "vite",
+    "plugin",
+    "node"
+  ],
+  "author": "tcly861204@hotmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tcly861204/vite-plugin-files-copy/issues"
+  },
+  "homepage": "https://github.com/tcly861204/vite-plugin-files-copy#readme",
+  "dependencies": {
+    "fs-extra": "^10.0.0"
+  }
+}
