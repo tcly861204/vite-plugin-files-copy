@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/tcly861204/vite-plugin-files-copy#readme",
   "dependencies": {
-    "fs-extra": "^10.0.0"
+    "fs-extra": "^10.0.0",
+    "vite": "^2.7.2"
   }
 }
