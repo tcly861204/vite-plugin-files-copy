@@ -12,6 +12,8 @@ const checkDirExist = function (dir) {
   }
 }
 const copy = function (from, dist) {
+  console.log('当前根路径: ' + path.resolve('./'))
+  console.log('from dir: ' + from + '; ' + 'to dir: ' + dist)
   if (!checkDirExist(from)) {
     console.error('可复制的文件或者目录不存在')
     return false
