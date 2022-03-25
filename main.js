@@ -12,7 +12,6 @@ const checkDirExist = function (dir) {
   }
 }
 const copy = function (from, dist) {
-  console.info('vite-plugin-files-copy: from_dir=' + from + '; ' + 'to_dir=' + dist)
   if (!checkDirExist(from)) {
     console.error('可复制的文件或者目录不存在')
     return false
@@ -49,7 +48,6 @@ module.exports = function (options) {
     },
     async writeBundle() {
       const root = viteConfig.root
-      console.info('vite-plugin-files-copy: current_root_path=' + path.resolve('./'))
       try {
         options.patterns.forEach((item) => {
           if (item.from && item.to) {
