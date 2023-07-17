@@ -1,5 +1,6 @@
 # vite-plugin-files-copy
 复制静态资源到指定的文件夹
+<a href="https://npmjs.com/package/vite-plugin-files-copy" target="_blank"><img src="https://badgen.net/npm/v/vite-plugin-files-copy" alt="npm package"></a>
 
 ## 说明
 vite2 使用 2.**版本
