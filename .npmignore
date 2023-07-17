@@ -2,7 +2,6 @@ src
 node_modules/
 .github
 package-lock.json
-dist
 tsconfig.json
 .vscode
 .npmrc
