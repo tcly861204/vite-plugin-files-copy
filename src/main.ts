@@ -1,4 +1,4 @@
-import { PluginOption } from 'vite'
+import { PluginOption, Plugin } from 'vite'
 import { copy } from './utils/index'
 import path from 'path'
 type patternItem = {
@@ -9,7 +9,7 @@ interface ViteCopyPlugin {
   patterns: Array<patternItem>
 }
 let viteConfig: any = null
-const PluginCopy = (options: ViteCopyPlugin): PluginOption => {
+const PluginCopy = (options: ViteCopyPlugin): PluginOption | Plugin => {
   return {
     name: 'vite-plugin-files-copy',
     apply: 'build',
