@@ -1,15 +1,15 @@
 {
   "name": "vite-plugin-files-copy",
-  "version": "3.6.0",
+  "version": "3.8.0",
   "description": "vite plugin copy",
   "main": "./dist/main.js",
-  "module": "./dist/main.js",
+  "module": "./dist/main.mjs",
   "types": "./dist/main.d.ts",
   "exports": {
     ".": {
       "types": "./dist/main.d.ts",
-      "import": "./dist/main.js",
-      "require": "./dist/main.cjs"
+      "import": "./dist/main.mjs",
+      "require": "./dist/main.js"
     }
   },
   "scripts": {
