@@ -6,7 +6,7 @@
 ## 说明
 vite2 使用 2.**版本
 
-vite3 使用 3.**版本
+vite3+ 使用 3.**版本
 
 ## 安装
 > npm i vite-plugin-files-copy@2 -D
